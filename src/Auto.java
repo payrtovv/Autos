@@ -9,6 +9,14 @@ public class Auto {
     public Auto(){
     }
 
+    public Auto(String marca) {
+        this.marca = "bmw";
+    }
+
+    public Auto(String marca, String modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
+    }
 
     //metds set y get
 
